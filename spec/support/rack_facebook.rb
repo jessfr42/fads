@@ -2,11 +2,11 @@ require 'sinatra/base'
 
 class RackFacebook < Sinatra::Base
 
-  get '/v2.6/:object_id' do
+  get '/v2.7/:object_id' do
     json_response 200, "#{params['object_id']}.json"
   end
 
-  get '/v2.6/:object_id/:edge' do
+  get '/v2.7/:object_id/:edge' do
     json_response 200, "#{params['object_id']}/#{params['edge']}.json"
   end
 

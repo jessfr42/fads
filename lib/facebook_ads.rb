@@ -29,7 +29,7 @@ module FacebookAds
 
   def self.base_uri
     unless defined?(@base_uri)
-      @base_uri = 'https://graph.facebook.com/v2.6'
+      @base_uri = 'https://graph.facebook.com/v2.7'
     end
 
     @base_uri
